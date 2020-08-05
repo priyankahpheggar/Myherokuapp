@@ -2,9 +2,10 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 8080
 
-app.get('/', (req, res) => {
-  res.send('welcome to my new app')
-})
+var home_page = "<h1>Welcome to Priyanka Fashions"
+
+//home page
+app.get('/', (req, res) => res.send(home_page))
 
 app.listen(port, () => {
   console.log(`my new expresso app is running here http://localhost:${port}`)
