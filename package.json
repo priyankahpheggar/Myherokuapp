@@ -1,0 +1,14 @@
+{
+  "name": "node_express_app",
+  "version": "1.0.0",
+  "description": "node application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Priyanka H P",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
